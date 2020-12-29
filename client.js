@@ -5,8 +5,15 @@ function onReady() {
     $('#generateBtn').on('click',  createDiv)
 }
 
+let totalClicks = 0;
+
 function createDiv() {
+    totalClicks ++ ;
     $('#container').append(`
-        <div>TEST</div>
+        <div>
+        <p>${totalClicks}</p>
+        <button>Yellow</button>
+        <button>Delete</button>
+        </div>
     `);
 } // end createDiv
