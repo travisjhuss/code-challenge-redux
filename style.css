@@ -1,3 +1,17 @@
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
+}
+
 h1 {
     color: rgb(10, 34, 87);
+}
+
+.red {
+    background-color: rgb(165, 5, 5);
+    color: white;
+}
+
+.yellow {
+    background-color: rgb(228, 228, 0);
 }
